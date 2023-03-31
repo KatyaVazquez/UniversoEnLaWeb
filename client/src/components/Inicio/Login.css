@@ -1,0 +1,60 @@
+.login-container {
+  background-image: url('https://media.tenor.com/DVzVKfkHYJcAAAAd/galaxy-space.gif'),
+  url('https://media.tenor.com/DVzVKfkHYJcAAAAd/galaxy-space.gif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .login-form h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-form input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form button {
+    background-color: #5c1aa7;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  

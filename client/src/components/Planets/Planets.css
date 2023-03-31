@@ -1,0 +1,69 @@
+.bg-image {
+  background-image: url('C:\Users\User\Downloads\planets-app-master\UniversoEnLaWeb\client\src\components\planeta.png'),
+  url('C:\Users\User\Downloads\planets-app-master\UniversoEnLaWeb\client\src\components\planeta.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.planets {
+  display: grid;
+  gap: 3rem;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.planets img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.planets a {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  border: solid white 2px;
+  padding: 1rem;
+}
+
+.planets a:hover {
+  background-color: white;
+  color: black;
+  transition: background-color .3s ease;
+  text-decoration: none;
+}
+
+.planet-individual {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgba(9, 61, 93, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+  .planets{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bg-image{
+    background-image: none;
+    background-color: black;
+  }
+  .planets {
+    grid-template-columns: 1fr;
+  }
+  .planet-individual img {
+    margin-bottom: 20px;
+  }
+}
+
+.link {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.comments-container {
+ 
+    background-color: #333;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .comment {
+    color: #eee;
+    margin-bottom: 20px;
+  }
+  
+  .comment h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .comment button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

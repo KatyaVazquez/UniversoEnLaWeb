@@ -1,0 +1,16 @@
+.apod-container {
+    text-align: center;
+    background-image: url('C:\Users\User\Downloads\planets-app-master\planets-app-master\UniversoEnLaWeb\src\components\planeta.png'),
+  url('C:\Users\User\Downloads\planets-app-master\UniversoEnLaWeb\client\src\components\planeta.png');
+  }
+  
+  .apod-image {
+    width: 50%;
+    margin: 0 auto;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .apod-image.expanded {
+    width: 100%;
+  }
+  
